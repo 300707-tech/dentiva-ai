@@ -109,7 +109,7 @@ function Hero() {
             className="mt-8 max-w-xl text-[22px] leading-relaxed text-slate-600"
           >
 
-            Dentiva menghubungkan Anda dengan dokter gigi koas
+            Paskoas menghubungkan Anda dengan dokter gigi koas
             terverifikasi secara instan. Nikmati kemudahan AI
             screening, konsultasi digital, dan akses layanan kesehatan
             gigi terdekat dalam satu platform pintar.

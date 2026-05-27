@@ -35,7 +35,7 @@ function Navbar() {
 
             <img
               src="/images/logo.png"
-              alt="Dentiva"
+              alt="paskoas"
               className="h-20 w-auto object-contain"
             />
 

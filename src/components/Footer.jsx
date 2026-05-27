@@ -29,7 +29,7 @@ function Footer() {
 
               <img
                 src="/images/logo.png"
-                alt="Dentiva"
+                alt="paskoas"
                 className="h-30 object-contain"
               />
 
