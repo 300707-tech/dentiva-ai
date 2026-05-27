@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-import story1 from "../assets/story1.png";
-import story2 from "../assets/story2.png";
-import story3 from "../assets/story3.png";
-import story4 from "../assets/story4.png";
+import story1 from "../assets/story1-new.png";
+import story2 from "../assets/story2-new.png";
+import story3 from "../assets/story3-new.png";
+import story4 from "../assets/story4-new.png";
 
 const slides = [
   {
