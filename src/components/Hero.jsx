@@ -129,7 +129,7 @@ function Hero() {
     if (user) {
       navigate("/dashboard")
     } else {
-      navigate("/login")
+      navigate("/auth")
     }
   }}
   className="

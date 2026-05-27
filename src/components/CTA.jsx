@@ -1,5 +1,28 @@
+import { useEffect, useState } from "react"
+import { useNavigate } from "react-router-dom"
+import { supabase } from "../lib/supabase"
+
 function CTA() {
+
+  const navigate = useNavigate()
+
+  const [user, setUser] = useState(null)
+
+  useEffect(() => {
+    checkUser()
+  }, [])
+
+  async function checkUser() {
+
+    const {
+      data: { user },
+    } = await supabase.auth.getUser()
+
+    setUser(user)
+  }
+
   return (
+
     <section className="bg-white px-6 pb-24 lg:px-20">
 
       <div
@@ -71,6 +94,13 @@ function CTA() {
             >
 
               <button
+                onClick={() => {
+                  if (user) {
+                    navigate("/dashboard")
+                  } else {
+                    navigate("/auth")
+                  }
+                }}
                 className="
                   rounded-2xl
                   bg-blue-600
@@ -93,7 +123,8 @@ function CTA() {
               <button
                 className="
                   rounded-2xl
-                  border border-slate-200
+                  border
+                  border-slate-200
                   bg-white/80
                   px-8
                   py-5
