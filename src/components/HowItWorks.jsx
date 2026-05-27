@@ -9,6 +9,8 @@ import {
   ArrowRight,
 } from "lucide-react"
 
+import { useNavigate } from "react-router-dom"
+
 const patientFlow = [
   {
     icon: <User size={26} />,
@@ -50,7 +52,11 @@ const koasFlow = [
 ]
 
 function HowItWorks() {
+
+  const navigate = useNavigate()
+
   return (
+
     <section className="relative overflow-hidden bg-[#f8fbff] px-6 py-28 lg:px-20">
 
       {/* BACKGROUND GRID */}
@@ -158,21 +164,15 @@ function HowItWorks() {
                 "
               >
 
-                {/* HOVER GLOW */}
-
                 <div className="absolute inset-0 bg-gradient-to-r from-cyan-50/0 via-cyan-50/40 to-transparent opacity-0 transition duration-500 group-hover:opacity-100" />
 
                 <div className="relative z-10 flex gap-5">
-
-                  {/* ICON */}
 
                   <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-cyan-50 text-cyan-600">
 
                     {item.icon}
 
                   </div>
-
-                  {/* TEXT */}
 
                   <div>
 
@@ -207,6 +207,7 @@ function HowItWorks() {
           >
 
             <button
+              onClick={() => navigate("/patient-dashboard")}
               className="
                 group
                 flex
@@ -252,17 +253,9 @@ function HowItWorks() {
           className="relative flex items-center justify-center"
         >
 
-
-
-          {/* OUTER GLOW */}
-
           <div className="absolute h-[420px] w-[420px] rounded-full bg-cyan-200/20 blur-3xl" />
 
-          {/* MIDDLE GLOW */}
-
           <div className="absolute h-[260px] w-[260px] rounded-full bg-blue-200/20 blur-2xl" />
-
-          {/* CORE */}
 
           <div
             className="
@@ -282,19 +275,13 @@ function HowItWorks() {
             "
           >
 
-            {/* PULSE */}
-
             <div className="absolute h-full w-full animate-ping rounded-full bg-cyan-200/20" />
-
-            {/* ICON */}
 
             <div className="relative z-10 flex h-24 w-24 items-center justify-center rounded-full bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-xl">
 
               <Sparkles size={38} />
 
             </div>
-
-            {/* TEXT */}
 
             <h3 className="relative z-10 mt-7 text-4xl font-bold text-slate-900">
 
@@ -316,8 +303,6 @@ function HowItWorks() {
 
         <div>
 
-          {/* LABEL */}
-
           <div
             data-aos="fade-left"
             className="mb-8 flex items-center justify-end gap-3"
@@ -332,8 +317,6 @@ function HowItWorks() {
             <div className="h-3 w-3 rounded-full bg-blue-600" />
 
           </div>
-
-          {/* FLOW */}
 
           <div className="space-y-8">
 
@@ -360,21 +343,15 @@ function HowItWorks() {
                 "
               >
 
-                {/* HOVER GLOW */}
-
                 <div className="absolute inset-0 bg-gradient-to-l from-blue-50/0 via-blue-50/40 to-transparent opacity-0 transition duration-500 group-hover:opacity-100" />
 
                 <div className="relative z-10 flex gap-5">
-
-                  {/* ICON */}
 
                   <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-blue-50 text-blue-600">
 
                     {item.icon}
 
                   </div>
-
-                  {/* TEXT */}
 
                   <div>
 
@@ -409,6 +386,7 @@ function HowItWorks() {
           >
 
             <button
+              onClick={() => navigate("/koas-dashboard")}
               className="
                 group
                 flex
