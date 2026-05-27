@@ -36,7 +36,7 @@ function Navbar() {
             <img
               src="/images/logo.png"
               alt="Dentiva"
-              className="h-30 w-auto object-contain"
+              className="h-20 w-auto object-contain"
             />
 
           </div>
