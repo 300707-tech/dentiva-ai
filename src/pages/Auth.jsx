@@ -80,7 +80,7 @@ function Auth() {
       provider: "google",
 
       options: {
-        redirectTo: "http://localhost:5173/auth"
+        redirectTo: "https://paskoas.vercel.app/auth"
       },
 
     })
