@@ -100,9 +100,9 @@ function Footer() {
 
             <div className="mt-6 flex flex-wrap gap-3">
 
-              <TechItem text="Gemini AI" />
+              <TechItem text="Openrouter AI" />
 
-              <TechItem text="Firebase" />
+              <TechItem text="Supabase" />
 
               <TechItem text="React" />
 
