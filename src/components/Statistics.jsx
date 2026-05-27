@@ -17,7 +17,7 @@ const stats = [
     number: "< 5 Menit",
     label: "Rata-rata Matching",
     position:
-      "top-[2%] left-1/2 -translate-x-1/2",
+      "top-[2%] left-[40%] -translate-x-1/2",
     glow: "from-sky-400/30 to-cyan-500/10",
     iconColor: "text-sky-500",
   },
