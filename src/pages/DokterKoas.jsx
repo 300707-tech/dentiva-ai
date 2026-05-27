@@ -175,7 +175,7 @@ function DokterKoas() {
                 <div>
 
                   <p className="text-sm font-black uppercase tracking-[0.3em] text-cyan-100">
-                    Dentiva AI Consultation
+                    PasKoas AI Consultation
                   </p>
 
                   <p className="mt-1 text-sm text-white/70">

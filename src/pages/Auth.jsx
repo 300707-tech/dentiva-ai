@@ -100,7 +100,7 @@ function Auth() {
 
           <img
             src="/images/logo.png"
-            alt="Dentiva"
+            alt="PasKoas"
             className="h-24 object-contain"
           />
 
@@ -109,7 +109,7 @@ function Auth() {
           </h1>
 
           <p className="mt-3 text-lg text-slate-500">
-            Masuk ke platform AI kesehatan gigi modern Dentiva.
+            Masuk ke platform AI kesehatan gigi modern PasKoas.
           </p>
 
         </div>

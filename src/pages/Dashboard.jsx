@@ -93,7 +93,7 @@ async function handleLogout() {
       <div className="rounded-[40px] bg-white p-10 shadow-xl">
 
         <p className="text-slate-500 text-xl">
-          Dashboard Dentiva
+          Dashboard PasKoas
         </p>
 <img
   src={userData?.user_metadata?.avatar_url}
@@ -115,7 +115,7 @@ async function handleLogout() {
 
         <p className="mt-5 max-w-2xl text-xl leading-relaxed text-slate-500">
 
-          Selamat datang kembali di platform kesehatan gigi modern Dentiva AI.
+          Selamat datang kembali di platform kesehatan gigi modern PasKoas AI.
 <p className="mt-4 text-lg text-slate-400">
   {userData?.email}
 </p>

@@ -180,7 +180,7 @@ function Footer() {
 
           <p>
 
-            © 2026 Dentiva. All rights reserved.
+            © 2026 PasKoas. All rights reserved.
 
           </p>
 

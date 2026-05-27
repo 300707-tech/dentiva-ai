@@ -96,7 +96,7 @@ function PatientDashboard() {
 
             <img
               src="/images/logo.png"
-              alt="Dentiva"
+              alt="PasKoas"
               className="w-[170px] object-contain"
             />
 
@@ -431,7 +431,7 @@ function PatientDashboard() {
                       text-cyan-700
                     "
                   >
-                    Dentiva AI
+                    PasKoas AI
                   </div>
 
                 </div>
@@ -454,7 +454,7 @@ function PatientDashboard() {
 
                 <p className="mt-6 max-w-2xl text-[15px] leading-relaxed text-slate-500">
 
-                  Dentiva AI menghubungkan rekam medis,
+                  PasKoas AI menghubungkan rekam medis,
                   screening,
                   AI prediction,
                   dan monitoring kesehatan gigi secara real-time.
@@ -682,7 +682,7 @@ function PatientDashboard() {
                   </h2>
 
                   <p className="mt-4 max-w-md text-sm leading-relaxed text-violet-100">
-                    Semua histori screening dan rekam medis tersimpan aman di cloud system Dentiva.
+                    Semua histori screening dan rekam medis tersimpan aman di cloud system PasKoas.
                   </p>
 
                 </div>

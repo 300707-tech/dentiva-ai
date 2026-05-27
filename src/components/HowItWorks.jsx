@@ -19,7 +19,7 @@ const patientFlow = [
   {
     icon: <Activity size={26} />,
     title: "AI Screening",
-    desc: "AI Dentiva menganalisis gejala secara cepat dan cerdas.",
+    desc: "AI Paskoas menganalisis gejala secara cepat dan cerdas.",
   },
 
   {
@@ -99,7 +99,7 @@ function HowItWorks() {
 
         <p className="mx-auto mt-6 max-w-3xl text-lg leading-relaxed text-slate-500">
 
-          Dentiva menghubungkan pasien dan dokter gigi koas
+          PasKoas menghubungkan pasien dan dokter gigi koas
           dalam satu ekosistem kesehatan modern berbasis AI.
 
         </p>
@@ -296,7 +296,7 @@ function HowItWorks() {
 
             <h3 className="relative z-10 mt-7 text-4xl font-bold text-slate-900">
 
-              Dentiva
+              PasKoas
 
             </h3>
 

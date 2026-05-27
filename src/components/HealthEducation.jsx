@@ -52,7 +52,7 @@ function HealthEducation() {
             "
           >
 
-            Dentiva Dental Guidebook
+            PasKoas Dental Guidebook
 
           </span>
 

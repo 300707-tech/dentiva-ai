@@ -65,7 +65,7 @@ function KoasDashboard() {
 
             <img
               src="/images/logo.png"
-              alt="Dentiva"
+              alt="PasKoas"
               className="w-[170px]"
             />
 
@@ -254,7 +254,7 @@ function KoasDashboard() {
                   <ShieldCheck size={26} />
 
                   <p className="text-sm font-black uppercase tracking-[0.25em]">
-                    Dentiva AI Medical System
+                    PasKoas AI Medical System
                   </p>
 
                 </div>
@@ -267,7 +267,7 @@ function KoasDashboard() {
 
                 <p className="mt-6 max-w-2xl text-white/80">
                   AI-powered monitoring dashboard
-                  untuk dokter koas modern Dentiva.
+                  untuk dokter koas modern PasKoas.
                 </p>
 
               </div>

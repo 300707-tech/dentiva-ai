@@ -94,7 +94,7 @@ function OralMonitoring() {
                 <div>
 
                   <p className="text-sm font-black uppercase tracking-[0.25em] text-cyan-100">
-                    Dentiva AI Monitoring
+                    PasKoas AI Monitoring
                   </p>
 
                   <p className="mt-1 text-sm text-white/70">
@@ -429,7 +429,7 @@ function OralMonitoring() {
                 <div>
 
                   <p className="text-sm font-black uppercase tracking-[0.2em] text-violet-100">
-                    Dentiva AI Recommendation
+                    PasKoas AI Recommendation
                   </p>
 
                   <h2 className="mt-4 text-[38px] font-black leading-tight">

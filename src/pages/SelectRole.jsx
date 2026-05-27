@@ -64,7 +64,7 @@ function SelectRole() {
           </h1>
 
           <p className="mt-5 text-2xl text-slate-500">
-            Dentiva menyesuaikan pengalaman berdasarkan kebutuhan Anda.
+            PasKoas menyesuaikan pengalaman berdasarkan kebutuhan Anda.
           </p>
 
         </div>

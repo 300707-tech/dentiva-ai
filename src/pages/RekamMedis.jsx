@@ -130,7 +130,7 @@ function RekamMedis() {
           <div>
 
             <p className="text-sm font-bold uppercase tracking-[0.25em] text-cyan-600">
-              Dentiva AI
+              PasKoas AI
             </p>
 
             <h1 className="mt-1 text-5xl font-black tracking-[-0.04em] text-slate-900">

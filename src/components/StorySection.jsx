@@ -21,8 +21,8 @@ const slides = [
 
   {
     image: story3,
-    title: "Dipertemukan Dentiva",
-    desc: "Dentiva mempertemukan pasien dan dokter koas secara cepat.",
+    title: "Dipertemukan PasKoas",
+    desc: "PasKoas mempertemukan pasien dan dokter koas secara cepat.",
   },
 
   {
@@ -58,7 +58,7 @@ export default function StorySection() {
       >
 
         <p className="text-sm font-semibold uppercase tracking-[0.25em] text-cyan-600">
-          Story Behind Dentiva
+          Story Behind PasKoas
         </p>
 
         <h2 className="mt-5 text-4xl font-semibold leading-tight text-slate-900 lg:text-6xl">
@@ -72,7 +72,7 @@ export default function StorySection() {
 
         <p className="mt-6 text-lg leading-relaxed text-slate-500">
 
-          Dentiva hadir sebagai jembatan antara pasien yang membutuhkan
+          PasKoas hadir sebagai jembatan antara pasien yang membutuhkan
           perawatan gigi terjangkau dan dokter koas yang membutuhkan
           pengalaman klinis nyata.
 

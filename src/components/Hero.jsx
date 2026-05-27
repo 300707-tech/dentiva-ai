@@ -182,7 +182,7 @@ function Hero() {
 
           <img
             src="/images/hero.png"
-            alt="Dentiva Doctor"
+            alt="PasKoas Doctor"
             className="relative z-10 w-full max-w-[950px] -mt-6 object-contain scale-[1.2]"
           />
 

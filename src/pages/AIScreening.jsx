@@ -570,7 +570,7 @@ function AIScreening() {
               <div className="flex flex-wrap gap-3">
 
                 <div className="rounded-full bg-cyan-100 px-4 py-2 text-[10px] font-black uppercase tracking-[0.2em] text-cyan-700">
-                  Dentiva AI
+                  PasKoas AI
                 </div>
 
                 <div className="rounded-full bg-blue-100 px-4 py-2 text-[10px] font-black uppercase tracking-[0.2em] text-blue-700">

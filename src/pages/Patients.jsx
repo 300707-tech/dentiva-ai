@@ -106,7 +106,7 @@ function Patients() {
                 <Users size={30} />
 
                 <p className="text-sm font-black uppercase tracking-[0.25em] text-cyan-100">
-                  Dentiva AI Patients
+                  PasKoas AI Patients
                 </p>
 
               </div>
@@ -119,7 +119,7 @@ function Patients() {
 
               <p className="mt-6 max-w-2xl text-white/80">
                 Monitoring pasien modern berbasis AI
-                untuk dokter koas Dentiva dengan
+                untuk dokter koas PasKoas dengan
                 risk analysis dan oral health tracking.
               </p>
 

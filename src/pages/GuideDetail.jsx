@@ -267,7 +267,7 @@ function GuideDetail() {
                 <div>
 
                   <p className="text-sm font-medium text-cyan-600">
-                    DENTIVA GUIDEBOOK
+                    PasKoas GUIDEBOOK
                   </p>
 
                   <h2 className="text-4xl font-bold text-slate-900">

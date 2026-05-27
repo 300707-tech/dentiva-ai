@@ -57,7 +57,7 @@ function CTA() {
 
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-slate-500">
 
-              Mulai perjalanan kesehatan gigi digital Anda bersama Dentiva.
+              Mulai perjalanan kesehatan gigi digital Anda bersama PasKoas.
               Konsultasi lebih cepat, mudah, dan modern dalam satu platform pintar.
 
             </p>

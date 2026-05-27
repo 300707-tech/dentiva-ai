@@ -219,7 +219,7 @@ function Statistics() {
           "
         >
 
-          Dentiva{" "}
+          PasKoas{" "}
 
           <span
             className="
@@ -249,7 +249,7 @@ function Statistics() {
           "
         >
 
-          Dentiva membangun ekosistem kesehatan gigi digital
+          PasKoas membangun ekosistem kesehatan gigi digital
           yang menghubungkan pasien, koas, dan fasilitas klinik
           dalam satu jaringan cerdas berbasis AI.
 
@@ -347,7 +347,7 @@ function Statistics() {
 
             <h3 className="mt-7 text-4xl font-bold text-slate-900">
 
-              Dentiva
+              PasKoas
 
             </h3>
 
