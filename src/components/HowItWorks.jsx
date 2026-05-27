@@ -252,6 +252,8 @@ function HowItWorks() {
           className="relative flex items-center justify-center"
         >
 
+
+
           {/* OUTER GLOW */}
 
           <div className="absolute h-[420px] w-[420px] rounded-full bg-cyan-200/20 blur-3xl" />
